@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Política de Privacidad — NOMBRE_APP<Texgameai>
+  <meta name="description" content="Política de privacidad de NOMBRE_APP. Cómo recogemos, usamos y protegemos tus datos." />
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--muted:#6b7280;--accent:#0ea5a6}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#111827; margin:0; padding:24px}
+    .container{max-width:900px;margin:24px auto;padding:28px;background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(15,23,42,0.06)}
+    h1{font-size:1.6rem;margin:0 0 8px}
+    .subtitle{color:var(--muted);margin-bottom:20px}
+    h2{font-size:1rem;margin-top:20px}
+    p{line-height:1.6;color:#374151}
+    ul{color:#374151}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .pill{background:#eef2f7;padding:6px 10px;border-radius:999px;font-size:.85rem;color:#0f172a}
+    .actions{display:flex;gap:10px;margin-top:18px}
+    a.button{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;border:1px solid rgba(15,23,42,0.06);background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0));}
+    a.cta{background:var(--accent);color:#fff;border:none}
+    footer{margin-top:28px;color:var(--muted);font-size:.85rem}
+    pre{background:#0f172a;color:#e6eef4;padding:12px;border-radius:8px;overflow:auto}
+    @media (max-width:520px){body{padding:14px}.container{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Política de Privacidad</h1>
+    <div class="subtitle">Última actualización: <span id="updated">DD MMMM YYYY</span></div>
+    <div class="meta">
+      <div class="pill">App: <strong id="app-name">NOMBRE_APP</strong></div>
+      <div class="pill">Contacto: <span id="contact-email">correo@ejemplo.com</span></div>
+    </div>
+
+    <h2>1. Introducción</h2>
+    <p>
+      En <strong id="app-name-2">NOMBRE_APP</strong> respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política explica qué información recopilamos, por qué la usamos y cómo la protegemos.
+    </p>
+
+    <h2>2. Información que recopilamos</h2>
+    <ul>
+      <li><strong>Imágenes y fotos</strong>: Cuando subes una foto para análisis o mejora de perfil.</li>
+      <li><strong>Datos que proporcionas</strong>: Nombre de usuario, descripción, preferencias y cualquier dato que incluyas en tu perfil.</li>
+      <li><strong>Datos de uso</strong>: Logs de conexión, interacciones dentro de la app y métricas básicas de uso para mejorar el servicio.</li>
+      <li><strong>Datos técnicos</strong>: Tipo de dispositivo, versión del sistema operativo y errores que ocurran en la aplicación.</li>
+    </ul>
+
+    <h2>3. Cómo usamos la información</h2>
+    <p>Usamos tus datos para:</p>
+    <ul>
+      <li>Proveer y mejorar las funcionalidades de la app.</li>
+      <li>Procesar las imágenes mediante servicios externos (por ejemplo, APIs de modelos de lenguaje o visión) para generar consejos y resultados.</li>
+      <li>Atender solicitudes de soporte y responder a tus preguntas.</li>
+      <li>Cumplir obligaciones legales y proteger la seguridad de la plataforma.</li>
+    </ul>
+
+    <h2>4. Procesamiento por terceros</h2>
+    <p>
+      Algunas funcionalidades dependen de proveedores externos (por ejemplo, servicios de análisis de imagen o procesamiento en la nube). Cuando enviamos datos a terceros lo hacemos únicamente cuando es necesario para brindar la funcionalidad, y acorde a contratos que exigen protección de datos.
+    </p>
+
+    <h2>5. Almacenamiento y retención</h2>
+    <p>
+      Conservamos tus datos solo durante el tiempo necesario para ofrecer el servicio o según lo exija la ley. Puedes solicitar la eliminación de tus datos contactándonos al correo indicado más abajo.
+    </p>
+
+    <h2>6. Seguridad</h2>
+    <p>
+      Implementamos medidas técnicas y organizativas razonables para proteger tus datos contra accesos no autorizados, pérdida o divulgación. Sin embargo, ningún método de transmisión por Internet es 100% seguro.
+    </p>
+
+    <h2>7. Derechos del usuario</h2>
+    <p>
+      Tienes derecho a acceder, rectificar o eliminar tus datos, solicitar limitación del tratamiento y oponerte a ciertos usos. Para ejercer estos derechos contáctanos en el correo indicado.
+    </p>
+
+    <h2>8. Uso de la cámara y permisos</h2>
+    <p>
+      La app solicita permiso para acceder a la cámara y al almacenamiento para que puedas subir fotos. Solo accedemos a estos datos cuando tú lo autorices explícitamente.
+    </p>
+
+    <h2>9. Declaración sobre contenido sensible</h2>
+    <p>
+      No solicitamos ni procesamos datos especialmente sensibles (salud, religión, orientación sexual explícita, etc.). Si en algún momento se recabaran datos sensibles por error, los trataremos con la máxima confidencialidad y procederemos a eliminarlos si el usuario lo solicita.
+    </p>
+
+    <h2>10. Cambios en la política</h2>
+    <p>
+      Podemos actualizar esta política. Informaremos de cambios significativos mediante la app o por correo.
+    </p>
+
+    <h2>11. Contacto</h2>
+    <p>
+      Si tienes preguntas sobre esta política o quieres ejercer tus derechos, escríbenos a: <a href="mailto:correo@ejemplo.com" id="mailto">correo@ejemplo.com</a>
+    </p>
+
+    <div class="actions">
+      <a id="view-pdf" class="button" href="#" target="_blank" rel="noopener">Ver PDF</a>
+      <a id="download-pdf" class="button cta" href="#" download>Descargar PDF</a>
+    </div>
+
+    <footer>
+      © <span id="year">2025</span> <strong id="app-name-footer">NOMBRE_APP</strong>. Todos los derechos reservados.
+    </footer>
+
+    <script>
+      // --- CONFIGURA AQUÍ ---
+      const CONFIG = {
+        appName: 'NOMBRE_APP',          // Cambia por el nombre real de la app
+        contactEmail: 'correo@ejemplo.com',
+        pdfUrl: 'URL_DE_TU_PDF_AQUI',   // Pon la URL pública de tu PDF
+        lastUpdated: 'DD de MMMM de 2025'
+      }
+
+      // Replace placeholders
+      document.getElementById('app-name').textContent = CONFIG.appName
+      document.getElementById('app-name-2').textContent = CONFIG.appName
+      document.getElementById('app-name-footer').textContent = CONFIG.appName
+      document.getElementById('contact-email').textContent = CONFIG.contactEmail
+      document.getElementById('mailto').href = 'mailto:' + CONFIG.contactEmail
+      document.getElementById('updated').textContent = CONFIG.lastUpdated
+      document.getElementById('year').textContent = new Date().getFullYear()
+
+      // PDF buttons
+      const view = document.getElementById('view-pdf')
+      const dl = document.getElementById('download-pdf')
+      if (CONFIG.pdfUrl && CONFIG.pdfUrl !== 'URL_DE_TU_PDF_AQUI'){
+        view.href = CONFIG.pdfUrl
+        dl.href = CONFIG.pdfUrl
+      } else {
+        view.href = '#'
+        dl.href = '#'
+        view.classList.add('disabled')
+        dl.classList.add('disabled')
+        view.title = 'Configura la URL del PDF en el script'
+      }
+    </script>
+  </div>
+</body>
+</html>
